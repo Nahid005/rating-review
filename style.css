@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: yellow;
+}
+
+.rating-review-container{
+    background: #fff;
+    width: 400px;
+    height: 250px;
+}
+
+.rating-emoji{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.rating-emoji .fa-regular {
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 50%;
+    transform: translate(0);
+}
